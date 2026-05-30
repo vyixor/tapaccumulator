@@ -7,7 +7,7 @@
 ### Turn your earbud button into a programmable multi-tap macro launcher
 
 [![Windows](https://img.shields.io/badge/Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)](#)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-F5A623?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-F5A623?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License MIT](https://img.shields.io/badge/License-MIT-3DDC84?style=flat-square)](#license)
 [![Stars](https://img.shields.io/github/stars/vyixor/tapaccumulator?style=flat-square&color=F5A623)](https://github.com/vyixor/tapaccumulator/stargazers)
 [![Downloads](https://img.shields.io/github/downloads/vyixor/tapaccumulator/total?style=flat-square&color=F5A623)](https://github.com/vyixor/tapaccumulator/releases)
