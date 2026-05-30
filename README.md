@@ -9,7 +9,7 @@
 [![Windows](https://img.shields.io/badge/Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white)](#)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-F5A623?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License MIT](https://img.shields.io/badge/License-MIT-3DDC84?style=flat-square)](#license)
-[![Stars](https://img.shields.io/github/stars/yourusername/tapaccumulator?style=flat-square&color=F5A623)](https://github.com/vyixor/tapaccumulator/stargazers)
+[![Stars](https://img.shields.io/github/stars/vyixor/tapaccumulator?style=flat-square&color=F5A623)](https://github.com/vyixor/tapaccumulator/stargazers)
 
 *No drivers. No admin rights. No subscriptions. Just tap.*
 
