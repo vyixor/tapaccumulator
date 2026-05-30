@@ -10,6 +10,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-F5A623?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License MIT](https://img.shields.io/badge/License-MIT-3DDC84?style=flat-square)](#license)
 [![Stars](https://img.shields.io/github/stars/vyixor/tapaccumulator?style=flat-square&color=F5A623)](https://github.com/vyixor/tapaccumulator/stargazers)
+[![Release](https://img.shields.io/github/v/release/vyixor/tapaccumulator?style=flat-square&color=3DDC84&label=latest)](https://github.com/vyixor/tapaccumulator/releases/latest)
 
 *No drivers. No admin rights. No subscriptions. Just tap.*
 
@@ -18,6 +19,18 @@
 ![TapAccumulator Demo](assets/demo.gif)
 
 </div>
+
+---
+
+## ⬇️ Download
+
+| | |
+|--|--|
+| **Windows (no Python needed)** | [⚡ Download TapAccumulator.zip](https://github.com/vyixor/tapaccumulator/releases/latest) |
+| **Run from source** | See [Installation](#installation) below |
+
+The `.exe` is fully self-contained — extract the zip, run `TapAccumulator.exe`, done.  
+Requires **Windows 10 or 11 · x64**.
 
 ---
 
@@ -104,17 +117,26 @@ Earbud button press
 
 ## Installation
 
-### Requirements
+### Option A — Prebuilt `.exe` (recommended)
+
+1. Go to the [Releases page](https://github.com/vyixor/tapaccumulator/releases/latest)
+2. Download `TapAccumulator.zip`
+3. Extract it anywhere
+4. Run `TapAccumulator.exe`
+
+No Python. No installs. No dependencies.
+
+### Option B — Run from source
+
+#### Requirements
 
 - Windows 10 or Windows 11
 - Python 3.10 or newer
 - A Bluetooth earbud or wireless headset with a media button
 
-### Setup
-
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/tapaccumulator.git
+git clone https://github.com/vyixor/tapaccumulator.git
 cd tapaccumulator
 
 # 2. Install dependencies
@@ -240,6 +262,7 @@ tapaccumulator/
 ├── tapaccumulator.py     # UI, DataManager, tray, settings, modals
 ├── engine.py             # TapEngine — SMTC, hook, filter, accumulator, TTS
 ├── requirements.txt
+├── build_exe.bat         # Nuitka build script → produces TapAccumulator.exe
 ├── README.md
 ├── LICENSE
 ├── icons/
@@ -309,6 +332,20 @@ Closing the window hides it to tray. It does not terminate the engine.
 
 ---
 
+## Building from Source
+
+A Nuitka build script is included to produce a standalone `.exe`:
+
+```bat
+build_exe.bat
+```
+
+Output: `dist\TapAccumulator.exe`
+
+Requires Nuitka and MSVC (Visual Studio Build Tools). The script installs Nuitka automatically if not present.
+
+---
+
 ## Contributing
 
 Pull requests are welcome. Please open an issue first to discuss any significant changes.
@@ -317,7 +354,6 @@ Areas where contributions would be most useful:
 
 - Testing across different Bluetooth earbud brands, adapters, and drivers
 - Additional action types — HTTP webhooks, AutoHotkey integration, key simulation
-- Windows App `.exe` build configuration for users without Python
 - macOS/Linux equivalent using platform-native media key APIs
 
 ---
