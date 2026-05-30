@@ -10,6 +10,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-F5A623?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License MIT](https://img.shields.io/badge/License-MIT-3DDC84?style=flat-square)](#license)
 [![Stars](https://img.shields.io/github/stars/vyixor/tapaccumulator?style=flat-square&color=F5A623)](https://github.com/vyixor/tapaccumulator/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/vyixor/tapaccumulator/total)](https://github.com/vyixor/tapaccumulator/releases)
 [![Release](https://img.shields.io/github/v/release/vyixor/tapaccumulator?style=flat-square&color=3DDC84&label=latest)](https://github.com/vyixor/tapaccumulator/releases/latest)
 
 *No drivers. No admin rights. No subscriptions. Just tap.*
