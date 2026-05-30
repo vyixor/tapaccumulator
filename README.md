@@ -149,13 +149,13 @@ python tapaccumulator.py
 ### `requirements.txt`
 
 ```
-customtkinter>=5.2.0
-winotify>=1.1.0
-pynput>=1.7.6
-pystray>=0.19.4
-Pillow>=9.0.0
-pywin32>=306
-winsdk>=1.0.0b10
+customtkinter==5.2.2
+Pillow==12.2.0
+pynput==1.8.2
+pystray==0.19.5
+pywin32==311
+winotify==1.1.0
+winsdk==1.0.0b10
 ```
 
 > All dependencies target Windows. This project does not run on macOS or Linux — it uses WinRT, SMTC, and Windows SAPI APIs.
@@ -330,19 +330,6 @@ Closing the window hides it to tray. It does not terminate the engine.
 - It's minimized to the system tray — look for the amber earbud icon in the notification area
 - Right-click it and select **Show TapAccumulator**
 
----
-
-## Building from Source
-
-A Nuitka build script is included to produce a standalone `.exe`:
-
-```bat
-build_exe.bat
-```
-
-Output: `dist\TapAccumulator.exe`
-
-Requires Nuitka and MSVC (Visual Studio Build Tools). The script installs Nuitka automatically if not present.
 
 ---
 
